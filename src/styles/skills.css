@@ -1,0 +1,40 @@
+:root {
+	--rows: 4;
+	--columns: 5;
+}
+
+.grid_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 88vh;
+}
+
+.grid {
+	display: grid;
+	place-items: center;
+	grid-template: repeat(var(--rows), 1fr)/repeat(var(--columns), 1fr);
+	width: 50%;
+	aspect-ratio: var(--columns)/var(--rows);
+}
+
+.skill_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	width: 70%;
+	aspect-ratio: 1/1;
+}
+
+.color {
+	width: 10%;
+	border-radius: 30px;
+	height: 50%;
+}
+
+.img_skill {
+	width: 70%;
+	height: 50%;
+}

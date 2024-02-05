@@ -1,0 +1,67 @@
+.container_homepage {
+	width: 100vw;
+	height: 88vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.container_profile_img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.img_profile {
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+	border-radius: 100%;
+	aspect-ratio: 1;
+	overflow: hidden;
+
+}
+
+.separator .title {
+	font-size: 5rem;
+}
+
+.name {
+	border-top: 1px solid white;
+	width: fit-content;
+
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 4rem;
+	width: 30%;
+	height: 50vh;
+}
+
+.languages {
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	gap: 2rem;
+}
+
+.language {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	border-radius: 100%;
+	aspect-ratio: 1;
+	background-color: #fff;
+	overflow: hidden;
+	object-fit: fit;
+}
+
+.img_language {
+	height: 100%;
+}

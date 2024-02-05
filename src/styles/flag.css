@@ -1,0 +1,27 @@
+.flag {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20vw;
+	height: 100%;
+}
+
+.flag_image {
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.4;
+	transition: opacity 0.5s;
+}
+
+.rounded {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	aspect-ratio: 1/1;
+	overflow: hidden;
+}
+
+.flag_image:hover {
+	opacity: 1;
+}

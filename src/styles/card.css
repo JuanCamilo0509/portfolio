@@ -1,0 +1,71 @@
+.container_studieCard {
+	background-color: var(--complementary);
+	min-height: 30vh;
+	width: 20vw;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.imgUn_container {
+	height: 50%;
+	width: 100%;
+}
+
+.un_img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.infoUn {
+	display: flex;
+	flex-wrap: wra;
+	height: 50%;
+	align-items: center;
+}
+
+.logoUn {
+	height: 60%;
+	width: 30%;
+}
+
+.un_a_img {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.un_img_logo {
+	height: 100%;
+}
+
+.descriptionUn {
+	min-width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	text-align: left;
+	padding: 1rem;
+}
+
+.place {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.thing {
+	font-size: 1em;
+}
+
+.date {
+	font-size: 0.7rem;
+}
+
+model-viewer {
+	background-color: gray;
+	width: 100%;
+	height: 100%;
+}

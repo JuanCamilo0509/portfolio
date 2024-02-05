@@ -1,0 +1,101 @@
+{
+	"skills": {
+		"fusion": "#9B907A",
+		"neovim": "#90A78C",
+		"docker": "#A87866",
+		"git": "#90A78C",
+		"rust": "#959B83",
+		"web": "#959B83",
+		"linux": "#99957D",
+		"python": "#9B9079"
+	},
+	"contacts": {
+		"discord": "link",
+		"gmail": "link",
+		"github": "link"
+	},
+	"aboutMe": "Lorem ipsum dolor sit amet consectetur. Ac nunc semper feugiat eget gravida urna fusce metus. Neque tincidunt pretium turpis arcu facilisis velit porttitor. Tortor vitae id eleifend sapien curabitur laoreet dictum augue pellentesque. Aliquet sit eget facilisis massa in.",
+	"projects": [
+		{
+			"name": "MotoNuez",
+			"description": "Lorem, ipsum dolor.",
+			"link": ""
+		},
+		{
+			"name": "MotoNuez",
+			"description": "Lorem, ipsum dolor. Sip, lorem",
+			"link": ""
+		},
+		{
+			"name": "MotoNuez",
+			"description": "Lorem, ipsum dolor.",
+			"link": ""
+		},
+		{
+			"name": "MotoNuez",
+			"description": "Lorem, ipsum dolor. Sip, lorem",
+			"link": ""
+		},
+		{
+			"name": "MotoNuez",
+			"description": "Lorem, ipsum dolor.",
+			"link": ""
+		},
+		{
+			"name": "MotoNuez",
+			"description": "Lorem, ipsum dolor. Sip, lorem",
+			"link": ""
+		}
+	],
+	"studies": [
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		},
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		},
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		},
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		},
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		},
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		},
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		},
+		{
+			"name": "Universidad Nacional de Colombia",
+			"thing": "Mecatrónica",
+			"date": "2022-2027",
+			"abr": "unal"
+		}
+	]
+}
+
