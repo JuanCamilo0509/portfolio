@@ -1,11 +1,12 @@
 import '../styles/home_page.css'
-function Home_Page({ p }) {
+import data from '../data/data.json'
+function Home_Page() {
 	return (
 		<>
 			<div className="container_homepage">
 				<div className="container_profile_img">
 					<div className="img_profile">
-						<img src="/Assets/Elements/profile_image.png" />
+						<img src={data.aboutMe.image} />
 					</div>
 				</div>
 				<div className="description">
@@ -15,12 +16,18 @@ function Home_Page({ p }) {
 					</div>
 					<div className="language_p">
 						<div className="languages">
-							<div className="language"><img className='img_language' src="/Assets/Flags/German.svg" alt="" /></div>
-							<div className="language"><img className='img_language' src="/Assets/Flags/UK.svg" alt="" /></div>
-							<div className="language"><img className='img_language' src="/Assets/Flags/colombia.svg" alt="" /></div>
+							{
+								data.aboutMe.country.map((country) => {
+									return (
+										<div className="language">
+											<img className='img_language' src={`/Assets/Flags/${country}.svg`} />
+										</div>
+									)
+								})
+							}
 						</div>
 						<div className="parrafo">
-							{p}
+							{data.aboutMe.description}
 						</div>
 					</div>
 				</div>

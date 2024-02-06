@@ -3,37 +3,53 @@ import '../styles/header.css';
 import { Link } from 'react-router-dom';
 
 function Header({ title }) {
+	function capitalization(str) {
+		return str.charAt(0).toUpperCase() + str.slice(1);
+	}
 	return (
 		<div className="container_header">
 			<div className="title_home">
 				<div className="home">
-					<Link to="/">
-						<img src={"/Assets/Logos/rustB.svg"} alt="" />
-					</Link>
+					<img src={"/Assets/Logos/rustB.svg"} alt="" />
 				</div>
-				<div className="title">{title}</div>
+				<div className="title">{capitalization(title)}</div>
 			</div>
 			<div className="sections">
-				<p className="section">
-					<Link to="/projects">
-						Projects
-					</Link>
-				</p>
-				<p className="section">
-					<Link to="/education">
-						Education
-					</Link>
-				</p>
-				<p className="section">
-					<Link to="/skills">
-						Skills
-					</Link>
-				</p>
-				<p className="section">
-					<Link to="/experience">
-						Experience
-					</Link>
-				</p>
+				<Link to="/">
+					<div className="section">
+						<p>
+							About me
+						</p>
+					</div>
+				</Link>
+				<Link to="/skills">
+					<div className="section">
+						<p>
+							Skills
+						</p>
+					</div>
+				</Link>
+				<Link to="/projects">
+					<div className="section">
+						<p>
+							Projects
+						</p>
+					</div>
+				</Link>
+				<Link to="/education">
+					<div className="section">
+						<p>
+							Education
+						</p>
+					</div>
+				</Link>
+				<Link to="/experience">
+					<div className="section">
+						<p>
+							Experience
+						</p>
+					</div>
+				</Link>
 			</div>
 		</div>
 	);
