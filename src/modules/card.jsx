@@ -1,9 +1,8 @@
 import React from 'react';
 import './../styles/card.css';
 
-function Card({ name, description, date, img, state, link }) {
+function Card({ name, description, date, img, logo, state, link }) {
 	let content;
-
 	switch (state) {
 		case "projects":
 			content = (
@@ -20,7 +19,7 @@ function Card({ name, description, date, img, state, link }) {
 			);
 		default:
 			content = (
-				<img className='un_img' src={`/Assets/Elements/${img}.png`} alt='' />
+				<img className='un_img' src={`/Assets/Elements/${img}`} alt='' />
 			);
 
 	}
@@ -38,7 +37,7 @@ function Card({ name, description, date, img, state, link }) {
 				</div>
 				<div className="logoUn">
 					<a className='un_a_img' href={link}>
-						<img className='un_img_logo' src={`/Assets/Logos/${img}.svg`} alt="" />
+						<img className='un_img_logo' src={`/Assets/Logos/${logo}`} alt="" />
 					</a>
 				</div>
 			</div>
