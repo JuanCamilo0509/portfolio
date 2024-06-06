@@ -6,7 +6,7 @@
 		"git": ["#90A78C", "I control git from the terminal with GitHub as a remote repository. "],
 		"rust": ["#959B83", "I love rust. Everything crashes, but that is the most important part of programming: Knowing what is wrong or could go wrong in the future and solve it. That is why I'm trying to migrate from C to Rust. However, it's a long and, at the moment, strange path for me."],
 		"linux": ["#99957D", "I used Arch as my principle distribution of linux for 2 year. However I started to use Fusion 360, so I couldn't continue with it. But I miss Linux, so at the moment I'm saving money to buy 1TB drive to dual-boot my PC"],
-		"Microchip":["#97987F", "I use this sofware to program in C because it speeds up and saves me a lot of work. But I'm trying to change that, programming without microchip studio and using instead th terminal with Neovim."],
+		"Microchip":["#97987F", "I use this sofware to program in C because it speeds up and saves me a lot of work. But I'm trying to change that, programming without microchip studio and using instead the terminal with Neovim."],
 		"Kicad": ["#9B8F78", "All my projects were created with Kicad. I'm improving in this area but at the moment I'm able to create simple PCB circuits."]
 	},
 	"contacts": {
@@ -15,7 +15,7 @@
         "gmail": "juank109845@gmail.com"
 	},
 	"aboutMe": {
-		"description": "I'm a very appassionate person, striving to improve day by day to make the world an easy place to live through mechatronics and enginiering. I would be delighted to work with people that share the same passion for this stuff.\n I enjoy to program, share time with friends, 3D modeling, red, learn and create to music.",
+		"description": "I'm a very appassionate person, striving to improve day by day to make the world an easier place to live through mechatronics and engineering. I would be delighted to work with people that share the same passion for this stuff.\n I enjoy programming, spending time with friends, 3D modeling, reding and learning.",
 		"country": ["colombia", "uk"],
 		"image": "Assets/Elements/profileImg.jpg"
 	},
