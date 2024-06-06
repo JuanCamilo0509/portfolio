@@ -20,7 +20,7 @@ function Home_Page() {
 								data.aboutMe.country.map((country) => {
 									return (
 										<div className="language">
-											<img className='img_language' src={`/Assets/Flags/${country}.svg`} />
+											<img className='img_language' src={`Assets/Flags/${country}.svg`} />
 										</div>
 									)
 								})
