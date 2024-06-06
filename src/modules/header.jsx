@@ -10,7 +10,7 @@ function Header({ title }) {
 		<div className="container_header">
 			<div className="title_home">
 				<div className="home">
-					<img src={"/Assets/Logos/rustB.svg"} alt="" />
+					<img src={"/Assets/Logos/Brand.svg"} alt="" />
 				</div>
 				<div className="title">{capitalization(title)}</div>
 			</div>
@@ -40,13 +40,6 @@ function Header({ title }) {
 					<div className="section">
 						<p>
 							Education
-						</p>
-					</div>
-				</Link>
-				<Link to="/experience">
-					<div className="section">
-						<p>
-							Experience
 						</p>
 					</div>
 				</Link>

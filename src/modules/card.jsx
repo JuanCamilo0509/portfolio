@@ -8,39 +8,40 @@ function Card({ name, description, date, img, logo, state, link }) {
 			content = (
 				<model-viewer
 					className="glb_file"
-					src={`Assets/3dmodels/${img}.glb`}
+					src={`Assets/3dmodels/${img}`}
 					camera-controls
 				/>
 			);
 			break;
 		case "experience":
 			content = (
-				<img className='un_img' src={`/Assets/Elements/${img}.png`} alt='' />
+				<img className='image_section' src={`/Assets/Elements/${img}.png`} alt='' />
 			);
 		default:
 			content = (
-				<img className='un_img' src={`/Assets/Elements/${img}`} alt='' />
+				<img className='image_section' src={`/Assets/Elements/${img}`} alt='' />
 			);
 
 	}
-
 	return (
-		<div className="container_studieCard">
-			<div className="imgUn_container">
+		<div className="container_section_card">
+			<div className="visual_container">
 				{content}
 			</div>
-			<div className="infoUn">
-				<div className="descriptionUn">
-					<p className="place">{name}</p>
-					<p className="thing">{description}</p>
-					<p className="date">{date}</p>
+			<a className='a_container_info_section' href={link}>
+				<div className="container_info_section">
+					<div className="info_section">
+						<div className="logo_section">
+							<img className='section_img_logo' src={`/Assets/Logos/${logo}`} alt="" />
+						</div>
+						<div className="description_section">
+							<p className="place">{name}</p>
+							<p className="thing">{description}</p>
+							<p className="date">{date}</p>
+						</div>
+					</div>
 				</div>
-				<div className="logoUn">
-					<a className='un_a_img' href={link}>
-						<img className='un_img_logo' src={`/Assets/Logos/${logo}`} alt="" />
-					</a>
-				</div>
-			</div>
+			</a>
 		</div>
 	);
 }

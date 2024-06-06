@@ -5,27 +5,37 @@ import data from './data/data.json'
 import './card_view.css'
 
 function cards_view({ state }) {
+	let cardList;
+
+	switch (state) {
+		case "projects":
+			cardList = data.projects;
+			break;
+		case "education":
+			cardList = data.studies;
+			break;
+		case "experience":
+			cardList = data.experience;
+	}
+
 	return (
 		<>
 			<Header title={state} />
 			<div className="container_projects">
-				<div className="padding_container">
-					{state === "Projects" ? (
-						data.projects.map((element, _) => {
-							return (
-								<Card name={element.name} description={element.description} date="" abr={element.name} state="projects" link={"./"} />
-							)
-						})
-					) : (
-						data.studies.map((element, _) => {
-							return (
-								<Card name={element.name} description={element.thing} date={element.date} abr={element.abr} state="studies" link={"./"} />
-							)
-						})
-					)}
-				</div>
-				<Contact app={data.contacts} />
+				{cardList.map((element, index) => (
+					<Card
+						key={index}
+						name={element.name}
+						description={element.description}
+						date={element.date}
+						logo={element.logo}
+						img={element.img}
+						link={element.link}
+						state={state}
+					/>
+				))}
 			</div>
+			<Contact app={data.contacts} />
 		</>
 	)
 }

@@ -17,7 +17,7 @@ function Contact() {
 				break;
 			}
 			default: {
-				texto = "";  // Manejar un caso por defecto o proporcionar un valor predeterminado
+				texto = "";
 				break;
 			}
 		}
@@ -36,8 +36,8 @@ function Contact() {
 			<div onClick={() => copiar("gmail")} className="link_contact">
 				<img className='contact_image' src={`/Assets/Logos/gmail.svg`} alt="Gmail" />
 			</div>
-			<a className="link_contact" href={Data.contacts.github}>
-				<img className='contact_image' src={`/Assets/Logos/github.svg`} alt="GitHub" />
+			<a className="link_contact" href={Data.contacts.githubB}>
+				<img className='contact_image' src={`/Assets/Logos/Github.svg`} alt="GitHub" />
 			</a>
 		</div>
 	);

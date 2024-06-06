@@ -17,12 +17,12 @@ const router = createHashRouter([
 	},
 	{
 		path: '/projects',
-		element: <Card_view state="Projects" />
+		element: <Card_view state="projects" />
 	},
 	{
 		path: '/education',
-		element: <Card_view state="Education" />
-	}
+		element: <Card_view state="education" />
+	},
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

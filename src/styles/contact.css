@@ -1,25 +1,20 @@
 .container_contacts {
 	display: flex;
-	position: fixed;
-	left: calc(100vw - 4.5vw);
-	top: calc(100vh - 18vh);
-	flex-direction: column;
+	padding-right: 1rem;
+	justify-content: flex-end;
+	width: 100vw;
 	gap: 1rem;
-	max-height: 50vh;
-	width: 2vw;
+	height: 10vh;
 }
 
 .link_contact {
-	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-decoration: none;
-	border-left: 1px solid;
 }
 
 .contact_image {
-	width: 100%;
-}
-
-
-.link_contact:hover {
-	border-left: 0px solid;
+	cursor: pointer;
+	width: 90%;
 }

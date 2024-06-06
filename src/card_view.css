@@ -2,15 +2,13 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
-.padding_container {
-	display: flex;
-	justify-content: center;
-	gap: 2rem;
+	min-height: var(--main_section_height);
 	flex-wrap: wrap;
-	width: 90%;
-	height: 90%;
+	gap: 1rem;
+}
+
+@media (max-width: 1200px) {
+	.container_projects {
+		min-height: var(--main_section_height_res);
+	}
 }
