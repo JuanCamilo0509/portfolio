@@ -37,7 +37,7 @@ function Contact() {
 				<img className='contact_image' src={`Assets/Logos/gmail.svg`} alt="Gmail" />
 			</div>
 			<a className="link_contact" href={Data.contacts.githubB}>
-				<img className='contact_image' src={`Assets/Logos/GithubB.svg`} alt="GitHub" />
+				<img className='contact_image' src={`Assets/Logos/github.svg`} alt="GitHub" />
 			</a>
 		</div>
 	);
