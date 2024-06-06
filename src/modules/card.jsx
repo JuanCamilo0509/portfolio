@@ -15,11 +15,11 @@ function Card({ name, description, date, img, logo, state, link }) {
 			break;
 		case "experience":
 			content = (
-				<img className='image_section' src={`/Assets/Elements/${img}.png`} alt='' />
+				<img className='image_section' src={`Assets/Elements/${img}.png`} alt='' />
 			);
 		default:
 			content = (
-				<img className='image_section' src={`/Assets/Elements/${img}`} alt='' />
+				<img className='image_section' src={`Assets/Elements/${img}`} alt='' />
 			);
 
 	}
@@ -32,7 +32,7 @@ function Card({ name, description, date, img, logo, state, link }) {
 				<div className="container_info_section">
 					<div className="info_section">
 						<div className="logo_section">
-							<img className='section_img_logo' src={`/Assets/Logos/${logo}`} alt="" />
+							<img className='section_img_logo' src={`Assets/Logos/${logo}`} alt="" />
 						</div>
 						<div className="description_section">
 							<p className="place">{name}</p>

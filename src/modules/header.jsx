@@ -10,7 +10,7 @@ function Header({ title }) {
 		<div className="container_header">
 			<div className="title_home">
 				<div className="home">
-					<img src={"/Assets/Logos/Brand.svg"} alt="" />
+					<img src={"Assets/Logos/Brand.svg"} alt="" />
 				</div>
 				<div className="title">{capitalization(title)}</div>
 			</div>

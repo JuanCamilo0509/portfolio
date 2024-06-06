@@ -24,7 +24,7 @@ function Skills({ data }) {
 					{Object.entries(data).map(([app, [color, _]], index) => (
 						<div key={index} onMouseOver={getData} className="skill_container">
 							<div className="color" style={{ backgroundColor: color }}></div>
-							<img className='img_skill' src={`/Assets/Logos/${app}.svg`} alt="" />
+							<img className='img_skill' src={`Assets/Logos/${app}.svg`} alt="" />
 						</div>
 					))}
 				</div>

@@ -31,13 +31,13 @@ function Contact() {
 	return (
 		<div className="container_contacts">
 			<div onClick={() => copiar("discord")} className="link_contact">
-				<img className='contact_image' src={`/Assets/Logos/discord.svg`} alt="Discord" />
+				<img className='contact_image' src={`Assets/Logos/discord.svg`} alt="Discord" />
 			</div>
 			<div onClick={() => copiar("gmail")} className="link_contact">
-				<img className='contact_image' src={`/Assets/Logos/gmail.svg`} alt="Gmail" />
+				<img className='contact_image' src={`Assets/Logos/gmail.svg`} alt="Gmail" />
 			</div>
 			<a className="link_contact" href={Data.contacts.githubB}>
-				<img className='contact_image' src={`/Assets/Logos/Github.svg`} alt="GitHub" />
+				<img className='contact_image' src={`Assets/Logos/Github.svg`} alt="GitHub" />
 			</a>
 		</div>
 	);
