@@ -54,14 +54,6 @@
 			"img": "unal.png",
 			"logo": "unal.svg",
 			"link": "https://unal.edu.co/"
-		},
-		{
-			"name": "Campo Alto",
-			"description": "Tecnico Automotriz",
-			"date": "2024",
-			"img": "campo.png",
-			"logo": "campo.svg",
-			"link": "https://campoalto.edu.co/"
 		}
 	],
 	"experience": [
